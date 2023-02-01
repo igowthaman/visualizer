@@ -13,7 +13,7 @@ var router = createBrowserRouter([
     element: <Home/>,
   },
   {
-    path: "/home",
+    path: "/visualizer",
     element: <Home/>
   },
   {
