@@ -8,7 +8,7 @@ function sort(a){
     }
     res_str += '</div>';
     var temp;
-    for(var i = a.length-1; i > 0; i--){
+    for(i = a.length-1; i > 0; i--){
         for(var j = 0; j<a.length-1;j++){
             if(a[j]>a[j+1]){
                 temp = a[j];
@@ -19,7 +19,7 @@ function sort(a){
         res_str += `<div><span class="text-secondary fs-5 fw-bold">Step ${i} : </span>`;
         for( j  = 0 ; j < a.length; j++){
             if(i<=j){
-                if(temp == a[j])
+                if(temp === a[j])
                 {
                     res_str += `
                         <span class="text-underline text-warning fs-5 lh-lg ">${a[j]}</span> ,

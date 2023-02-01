@@ -19,7 +19,7 @@ function sort(a){
         res_str += `<div><span class="text-secondary fs-5 fw-bold">Step ${i} : </span>`;
         for( var j  = 0 ; j < a.length; j++){
             if(i>=j){
-                if(ele == a[j])
+                if(ele === a[j])
                 {
                     res_str += `
                         <span class="text-underline text-warning fs-5 lh-lg ">${a[j]}</span> ,
